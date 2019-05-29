@@ -1,0 +1,9 @@
+html
+    head
+        title= "Students PUG"
+    body
+        //- a comment
+        h1= "Students PUG"
+        ul(class="studentlist foo")
+            each student, index in students
+                li(data-id=index)= student
